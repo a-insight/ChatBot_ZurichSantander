@@ -22,8 +22,6 @@ header {
 }
 
 
-
-
 .avatar-name {
   color: #3a57f0;
 }
@@ -135,6 +133,7 @@ header .brand {
 
 input {
   height: 50px;
+  padding: 5px;
 }
 
 .addGrupo {
@@ -221,6 +220,21 @@ input {
   background-color: #ff3b30;
   color: #fff;
   cursor: pointer;
+}
+
+
+
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all .5s ease;
+    display: none;
+}
+
+section.show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 @media (max-width: 500px) {
