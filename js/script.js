@@ -160,25 +160,23 @@ audio1.addEventListener("ended", () => {
 
 const btnSec16 = document.querySelector(".sec16 .aceitar")
 
-const video = document.querySelector(".sec17 video")
-
 btnSec16.addEventListener("click", () => {
 
   showSection("sec17")
 
-})
-
-video.addEventListener("ended", () => {
-
-  showSection("sec18")
-
   setTimeout(() => {
-    showSection("sec19")
-  }, 4000)
 
-  setTimeout(() => {
-    showSection("sec20")
-  }, 7000)
+    showSection("sec18")
+
+    setTimeout(() => {
+      showSection("sec19")
+    }, 4000)
+
+    setTimeout(() => {
+      showSection("sec20")
+    }, 7000)
+
+  }, 163000)
 
 })
 
