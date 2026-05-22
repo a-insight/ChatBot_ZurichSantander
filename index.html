@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot - ZurichSantander</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+        <img class="brand container" src="./img/brand.svg" alt="" srcset="">
+    </header>
+    <!------------>
+    <section class="sec01 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    Olá 👋, eu sou o Zander, o assistente virtual do RH da <b>Zurich Santander</b></p>
+            </div>
+        </div>
+    </section>
+
+    <!------------>
+    <section class="sec02 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_blank.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    Estamos muito orgulhosos em saber que você fará parte do nosso time!</p>
+            </div>
+        </div>
+    </section>
+
+    <!------------>
+    <section class="sec03 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_blank.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    Tem uma <b>pessoa muito especial</b>que quer falar com você!
+                    <b>Que tal atender essa ligação e descobrir quem é?</b>
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec04 container">
+        <div class="flexr">
+            <div class="resposta">
+                <p><b>VOCÊ</b><br>clique aqui para aceitar</p>
+                <img class="aceitar" src="./img/check.svg" style="cursor:pointer">
+            </div>
+            <div><img class="avatar" src="./img/employee.png" alt=""></div>
+        </div>
+    </section>
+
+    <!------------>
+    <section class="sec05 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    Mas antes, me ajuda com uma questão?<br><b>Como você gostaria de ser chamado(a)?</b><br>Pode ser
+                    nome,
+                    apelido–como você quiser.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec06 container">
+        <div class="flexr">
+            <div class="resposta">
+                <div class="flex3">
+                    <p><b>VOCÊ</b></p>
+                    <br>
+                    <div class="flex2">
+                        <input type="text" placeholder="digite seu nome" class="nomeInput">
+                        <img class="aceitarNome" src="./img/check.svg" style="cursor:pointer">
+                    </div>
+                </div>
+            </div>
+            <div><img class="avatar" src="./img/employee.png" alt=""></div>
+        </div>
+    </section>
+
+    <!------------>
+    <section class="sec07 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    <b class="employee-name">nome</b>,agora sim,</br>vou colocar os dois na ligação….
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec08 container">
+        <div class="addGrupo">
+            <p><b class="avatar-name">${avatarName}</b> adicionou<b> CEO</b> no grupo</p>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec09 container">
+        <div class="call-screen">
+            <div class="profile">
+                <img src="./img/pessoaLigacao.jpg" alt=${directorName}>
+                <audio id="ringtone" src="./audio/mobile-ringtone.mp3" preload="auto"></audio>
+                <audio id="audio1" src="./audio/audio1.mp3" preload="auto"></audio>
+            </div>
+            <div class="director-name">${directorName}</div>
+            <div class="buttons">
+                <button class="accept"><i class="fa fa-phone"></i></button>
+                <button class="reject"><i class="fa fa-times"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!------------>
+    <section class="sec10 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_director.png" alt="">
+            <div class="pergunta">
+                <p><b class="director-n">${avatarName}</b><br>
+                    Seja muito bem-vindo(a) <b class="employee-name">nome</b>!<br>Vou deixar vocês seguirem com os
+                    próximos passos. Sucesso!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec11 container">
+        <div class="addGrupo">
+            <p><b>CEO saiu do grupo!</b>
+            </p>
+            <div>
+    </section>
+
+
+    <!------------>
+    <section class="sec12 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    <b class="employee-name">nome</b>, não te disse que era uma mensagem<br>de uma pessoa muito
+                    especial?
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec13 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_blank.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    Outra coisa que quero te contar: temos um propósito claro que nos guia diariamente…
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec14 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_blank.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    Inovar constantemente para proteger as pessoas e seus projetos, enquanto contribuímos para promover
+                    um mercado segurador cada vez mais humano, ético e sustentável. E isso inclui todas as nossas
+                    pessoas, incluindo você, que agora faz parte do time.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!------------>
+    <section class="sec15 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_blank.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    Para começar a conhecer mais sobre nossa cultura, veja esse vídeo que preparamos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec16 container">
+        <div class="flexr">
+            <div class="resposta">
+                <p><b>VOCÊ</b><br>Clique aqui para assistir o vídeo
+                </p>
+                <img class="aceitar" src="./img/check.svg" style="cursor:pointer">
+            </div>
+            <div><img class="avatar" src="./img/employee.png" alt=""></div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec17 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar.png" alt="">
+            <div class="pergunta">
+                <video controls width="100%">
+                    <source src="./img/ZS_INSTITUCIONAL 2026_v1.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeo.
+                </video>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec18 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_blank.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    Viu que bacana?<br>Você chega para somar. Queremos que se sinta parte, que conheça nosso jeito de
+                    ser e contribua para fortalecer a cultura que nos conecta.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!------------>
+    <section class="sec19 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_blank.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    Para que você fique ainda mais animado, vou te enviar um guia sobre nossa rotina e nossos
+                    benefícios.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!------------>
+    <section class="sec20 container">
+        <div class="flexr">
+            <div class="resposta">
+                <p><b>VOCÊ</b><br>Clique aqui para ver o GUIA
+                </p>
+                <img class="aceitar" src="./img/check.svg" style="cursor:pointer">
+            </div>
+            <div><img class="avatar" src="./img/employee.png" alt=""></div>
+        </div>
+    </section>
+
+    <!------------>
+    <section class="sec21 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_blank.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    <b class="employee-name">nome</b>, você gostou? Se ficou com alguma dúvida, você terá a oportunidade
+                    de esclarecer no seu primeiro dia, queremos muito que esses primeiros dias sejam especiais e que
+                    você tenha todas as principais informações para começar muito bem!
+                </p>
+            </div>
+        </div>
+    </section>
+    <!------------>
+    <section class="sec22 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_blank.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br></p>
+                <img src="./img/Apresentação1.gif" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec23 container">
+        <div class="flex">
+            <img class="avatar" src="./img/avatar_blank.png" alt="">
+            <div class="pergunta">
+                <p><b class="avatar-name">${avatarName}</b><br>
+                    Mais uma vez desejamos a você boas-vindas e nos encontramos em breve, desta vez em nossos
+                    escritórios!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------>
+    <section class="sec24 container">
+        <div class="addGrupo">
+            <p><b>FIM</b>
+            </p>
+            <div>
+    </section>
+
+
+</body>
+<script src="./js/script.js"></script>
+
+</html>
