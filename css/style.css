@@ -141,7 +141,7 @@ input {
   display: flex;
   margin: 0 auto;
   background-color: #bdfacb;
-  width: 280px;
+  width: 320px;
   height: 40px;
   border-radius: 10px;
   text-align: center;
@@ -229,7 +229,7 @@ input {
 
 
 
-/* section {
+section {
     opacity: 0;
     transform: translateY(20px);
     transition: all .5s ease;
@@ -240,7 +240,7 @@ section.show {
     display: block;
     opacity: 1;
     transform: translateY(0);
-} */
+}
 
 @media (max-width: 500px) {
   .container {
