@@ -222,7 +222,7 @@ input {
   cursor: pointer;
 }
 
-.center{
+#center{
   display: flex;
   align-items: center;
 }
