@@ -24,3 +24,7 @@ img, picture, video, canvas, svg {
 input, button, textarea, select {
   font: inherit;
 }
+
+html {
+  scrollbar-width: none;
+}
