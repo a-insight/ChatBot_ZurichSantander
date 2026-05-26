@@ -236,7 +236,7 @@ input {
 
 
 
-/* section {
+section {
   opacity: 0;
   transform: translateY(20px);
   transition: all .5s ease;
@@ -247,7 +247,7 @@ section.show {
   display: block;
   opacity: 1;
   transform: translateY(0);
-} */
+}
 
 @media (max-width: 500px) {
   .container {
