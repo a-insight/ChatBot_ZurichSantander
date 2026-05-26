@@ -31,31 +31,6 @@ function showSection(className) {
 
 }
 
-const sec09 = document.querySelector(".sec09")
-
-const ringtone = sec09.querySelector("#ringtone")
-const audio1 = sec09.querySelector("#audio1")
-
-document.addEventListener("click", unlockAudio, { once: true })
-
-function unlockAudio() {
-
-  ringtone.play()
-    .then(() => {
-      ringtone.pause()
-      ringtone.currentTime = 0
-    })
-    .catch(() => {})
-
-  audio1.play()
-    .then(() => {
-      audio1.pause()
-      audio1.currentTime = 0
-    })
-    .catch(() => {})
-
-}
-
 setTimeout(() => {
   showSection("sec01")
 }, 1000)
@@ -118,6 +93,11 @@ buttonNome.addEventListener("click", () => {
   }, 3500)
 
 })
+
+const sec09 = document.querySelector(".sec09")
+
+const ringtone = sec09.querySelector("#ringtone")
+const audio1 = sec09.querySelector("#audio1")
 
 const btnAccept = sec09.querySelector(".accept")
 const btnReject = sec09.querySelector(".reject")
