@@ -40,17 +40,23 @@ document.addEventListener("click", unlockAudio, { once: true })
 
 function unlockAudio() {
 
+  ringtone.muted = true
+
   ringtone.play()
     .then(() => {
       ringtone.pause()
       ringtone.currentTime = 0
+      ringtone.muted = false
     })
     .catch(() => {})
+
+  audio1.muted = true
 
   audio1.play()
     .then(() => {
       audio1.pause()
       audio1.currentTime = 0
+      audio1.muted = false
     })
     .catch(() => {})
 
