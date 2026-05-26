@@ -251,6 +251,6 @@ section.show {
 
 @media (max-width: 500px) {
   .container {
-    width: 400px;
+    width: 380px;
   }
 }
