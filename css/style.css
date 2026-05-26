@@ -1,6 +1,10 @@
 @import url(./reset.css);
 @import url(./root.css);
 
+html {
+  scrollbar-width: none;
+}
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -11,8 +15,11 @@ body {
   background-position: center;
   background-attachment: fixed;
 
+
   background-color: rgba(255, 255, 255, 0.5);
   background-blend-mode: lighten;
+
+
 }
 
 header {
@@ -187,7 +194,7 @@ input {
   text-align: center;
 }
 
-.director-n{
+.director-n {
   color: #0FBC49;
 }
 
@@ -222,7 +229,7 @@ input {
   cursor: pointer;
 }
 
-#center{
+#center {
   display: flex;
   align-items: center;
 }
@@ -230,16 +237,16 @@ input {
 
 
 section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all .5s ease;
-    display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all .5s ease;
+  display: none;
 }
 
 section.show {
-    display: block;
-    opacity: 1;
-    transform: translateY(0);
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 @media (max-width: 500px) {
